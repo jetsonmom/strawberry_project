@@ -10,6 +10,7 @@ sudo apt-get update
 sudo apt-get install python3-opencv
  sudo apt-get install python3-pip
  
-pip install schedule
+pip3 install schedule
+python3 strawberry_ko.py
   
 ```
