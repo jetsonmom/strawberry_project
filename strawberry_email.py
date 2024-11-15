@@ -55,8 +55,8 @@ def enhance_image(image):
     return enhanced
 
 def send_email(file_path):
-    email_address = "jmerrier0910@gmail.com"  # 발신자 겸 수신자 이메일 주소
-    app_password = "smvrcqoizxbxmyhy"  # 여기에 생성한 앱 비밀번호를 입력하세요
+    email_address = ""  # 발신자 겸 수신자 이메일 주소
+    app_password = ""  # 여기에 생성한 앱 비밀번호를 입력하세요
 
     # 이메일 메시지 생성
     message = MIMEMultipart()
